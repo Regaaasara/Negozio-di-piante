@@ -6,6 +6,10 @@ text-align: center;
  height: 200px; 
 }
 
-.div class {
+.blocco {
  width: 300px;
- border: 1px
+ border: 1px solid black;
+ text-align: center;
+ margin: 10 px;
+ padding: 10px;
+ }

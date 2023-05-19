@@ -5,7 +5,8 @@ text-align: center;
 .foto {
  height: 200px; 
 }
-
+body 
+{background-image:src(immagini/sfondo.jpeg);}
 .blocco {
  width: 300px;
  border: 1px solid black;
@@ -13,3 +14,13 @@ text-align: center;
  margin: 10 px;
  padding: 10px;
  }
+
+ .logo {
+width: 18px;
+height: 18px;
+margin: auto;
+padding: 1px;}
+
+img.logo {display: inline-block;
+
+}

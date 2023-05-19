@@ -16,10 +16,8 @@ body
  }
 
  .logo {
-width: 18px;
-height: 18px;
-margin: auto;
-padding: 1px;}
+width: 100px;
+}
 
 img.logo {display: inline-block;
 

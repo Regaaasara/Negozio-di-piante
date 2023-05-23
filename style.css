@@ -6,7 +6,7 @@ text-align: center;
  height: 200px; 
 }
 body 
-{background-image:src(immagini/sfondo.jpeg);}
+{background-image:url(immagini/sfondo.jpeg);}
 .blocco {
  width: 300px;
  border: 1px solid black;
@@ -22,3 +22,4 @@ width: 100px;
 img.logo {display: inline-block;
 
 }
+.btn-primary {background-color: green;}

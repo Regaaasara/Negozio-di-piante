@@ -1,0 +1,293 @@
+/* stile body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./immagini/sfondo.png');
+  }
+
+/* stile container overlay */
+.container {
+
+}
+
+/* stile content (tutto) */
+.content {
+    position: relative;
+
+    text-align: center;
+    padding: 20px;
+}
+
+/* stile overlay foglie sopra */
+.overlay-image {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+/* stile overlay foglie sotto */
+.overlay-image2 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+/* stile overlay foglie sfondo */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* stile barra di navigazione */
+nav {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 17px;
+}
+  
+/* stile barra di navigazione 1 */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+/* stile barra di navigazione 2 */
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+/* stile barra di navigazione 3 */
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #0B6220;
+}
+
+/* stile barra di navigazione 4 */
+.navbox:hover {
+    background-color: #555;
+}
+
+/* stile barra di navigazione 5 (box bottoni) */
+.navbox {
+    background-color: #E8EEEA;
+    width: 120px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* stile hover (box menu) */
+.burger:hover {
+    background-color: #555;
+}
+
+/* stile hover (box carrello) */
+.cart:hover {
+    background-color: #555;
+}
+
+/* stile bottone carrello */
+.cart {
+    background-color: #0B6220;
+    width: 45px;
+    border-radius: 20px;
+    height: 45px;
+
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+/* stile bottone menu */
+.burger {
+    background-color: #0B6220;
+    width: 45px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 45px;
+    text-align: center;
+
+    position: absolute;
+
+    left: 30px;
+    top: 50px;
+}
+  
+/* spazio tra barra di navigazione e contenuto */
+#vuoto {
+    height: 90px;
+}
+
+/* spazio tra barra di navigazione e top */
+#vuoto1 {
+    height: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Stops the float property from affecting content after the columns */
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* div Ultimi Arrivi */
+.arrivi {
+    display: inline-block;
+    width: 100%;
+}
+
+/* div Ultimi Arrivi titolo */
+.a1 {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* div Ultimi Arrivi fiori */
+.a2 {
+    height: 150px;
+}
+
+/* div Ultimi Arrivi spazio tra righe */
+.aspace {
+    height: 55px;
+}
+  
+/* div ultimi arrivi spazio tra colonne fiori*/
+.fiorespazio {
+    float: left;
+    width: 15%;
+    height: 100%;
+} 
+  
+/* div ultimi arrivi fiori*/
+.fiore {
+    float: left;
+    width: 42.5%;
+    height: 100%;
+}
+
+/* div Appuntamenti */
+.appuntamenti {
+    width: 100%;
+    height: 300px;
+}
+
+.row {
+    display: table;
+    border: 1px solid green;
+    width: 800px; /* it changes by screen size actually */
+    position: absolute;
+    top: 30px;
+}
+
+.row:before, .row:after {
+    content: "";
+}
+
+.row:after {
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 20%;
+}
+
+.col:first-child .navbox {
+    margin-left: 0;
+}
+
+.col:last-child .navbox {
+    margin-right: 0;
+}
+
+
+#ultimiarrivi {
+    background-color: lightgrey;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+}
+
+ 
+
+  
+#img_arrivi {
+    width: 400px;
+}
+
+#img_insta {
+    width: 350px;
+}
+
+.img_fiori {
+    height: 190px;
+}
+
+.img_fioriprodotti {
+    height: 250px;
+}
+
+#img_appuntamenti {
+    width: 400px;
+}
+
+.img_carrellomenu {
+    height: 30px;
+}
+
+#img_tuttiprodotti
+{
+    height: 110px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center1 {
+    display: flex;
+    justify-content: center;
+}
+
+#titoloprodotti {
+    height: 100px;
+    width: 100%;
+}
+
+#tuttiprodotti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.prodotti {
+    width: 30%;
+    height: 270px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}

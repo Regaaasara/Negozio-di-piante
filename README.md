@@ -1,2 +1,2 @@
 # Negozio-di-piante
-https://whimsical-gumdrop-4ad6db.netlify.app
+Per visualizzare il sito web --> https://sweet-flowering.netlify.app

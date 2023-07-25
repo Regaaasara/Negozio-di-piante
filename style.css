@@ -868,3 +868,95 @@ input:checked + .slider:before {
     width: 100%;
     height: 400px;;
 }
+
+.boxprodotti {
+    width: 150px;
+    height: 150px;
+    background-image: url('./immagini/fiorellino1.png');
+    background-color: #E8EEEA;
+    background-size: cover;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+.titoletto {
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #0B6220;
+    position: relative;
+    top: 75px;
+    margin: 0 auto;
+    color: #E8EEEA;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.titoletto:hover {
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #E8EEEA;
+    position: relative;
+    top: 75px;
+    margin: 0 auto;
+    color: #0B6220;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+.carrellino {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: #0B6220;
+    position: relative;
+    top: 10px;
+    left: 48px;
+    overflow: hidden;
+    border-style: none;
+}
+
+.carrellinoimg {
+    height: 95%;
+    margin: auto;
+    position: relative;
+    right: 2px;
+    top: 1px;
+}
+
+table,
+table td {
+  border: none;
+}
+
+td {
+  height: 80px;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+}

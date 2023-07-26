@@ -748,3 +748,18 @@ input:checked + .slider:before {
     font-size: 25px;
     
 }
+
+footer {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    padding: 30px;
+    background-color: #0B6220;
+    color: #E8EEEA;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
